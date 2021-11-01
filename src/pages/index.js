@@ -1,8 +1,8 @@
-import Head from 'next/head'
-import Image from 'next/image'
-import { Grid, Button } from '@mui/material'
+import Head from 'next/head';
+import Image from 'next/image';
+import { Grid, Button } from '@mui/material';
 
-import Header from '../components/Header'
+import Header from '../components/Header';
 
 function HomePage() {
   return (
@@ -27,7 +27,7 @@ function HomePage() {
         </Grid>
       </Grid>
     </div>
-  )
+  );
 }
 
 export default HomePage
